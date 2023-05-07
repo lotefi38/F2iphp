@@ -5,6 +5,7 @@ body {
 body header {
   background: url("../images/background.jpg") repeat center center fixed;
   background-size: cover;
+  padding-top: 28px;
 }
 body .logo {
   width: 40%;
@@ -40,10 +41,12 @@ ul li a {
 }
 
 button {
-  background: black;
+  border: none;
   color: white;
   padding-left: 15px;
   padding-right: 15px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(4, 3, 3) 20%, rgb(41, 41, 41) 65%, rgb(75, 75, 75) 99%);
 }
 
 .prix {
@@ -64,11 +67,13 @@ button {
   justify-content: end;
   text-align: right;
   background-color: black;
-  width: 40px;
-  margin-left: 95%;
+  width: 65px;
+  margin-left: 88%;
   color: orange;
   border-radius: 5px;
-  padding: 1px;
+  padding: 2px 65px 2px 13px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .liste {

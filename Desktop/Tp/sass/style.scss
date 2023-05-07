@@ -4,6 +4,7 @@ body{
     header{
         background: url('../images/background.jpg') repeat center center fixed; 
         background-size: cover;
+        padding-top: 28px;
     }
    .logo{
     width: 40%;
@@ -44,10 +45,12 @@ ul li{
 }
 
 button{
-    background:black;
+  border:none;
     color:white;
     padding-left:15px;
     padding-right:15px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(4,3,3,1) 20%, rgba(41,41,41,1) 65%, rgba(75,75,75,1) 99%);
 
 }
 
@@ -67,11 +70,13 @@ font-size:20px;
    justify-content:end;
    text-align: right;
    background-color: black;
-   width:40px;
-   margin-left:95%;
+   width:65px;
+   margin-left:88%;
    color:orange;
    border-radius:5px;
-   padding: 1px;
+    padding: 2px 65px 2px 13px;
+  font-size: 22px;
+   font-weight: bold;
 
 }
 .liste{
